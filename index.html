@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vertical Gradient Bar Graph</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Vertical Gradient Bar Graph</h1>
+        <label for="inputValue" ></label>
+        <input type="number" id="inputValue" placeholder="Input Value"/>
+        <label for="maxValue"></label>
+        <input type="number" id="maxValue" placeholder="Max Value:" />
+
+        <button onclick="plotGraph()">Plot</button>
+
+        <div class="graph">
+            <div class="bar" id="inputBar"></div>
+            <div class="bar" id="maxBar"></div>
+        </div>
+    </div>
+
+   
+
+   
+</body>
+</html>

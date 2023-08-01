@@ -1,0 +1,50 @@
+.container {
+    padding: 20px;
+}
+h1{
+    color: #008CFE;
+}
+
+.graph {
+    width: 200px;
+    height: 300px;
+    background-color: #f1f1f1;
+    margin-top: 10px;
+    position: relative;
+}
+
+.bar {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+#inputValue, #maxValue{
+    height: 25px;
+    width: 180px;
+    background-color: #C2E3FF;
+    border-style: none;
+    padding-left: 15px;
+    margin: 10px;
+    border-radius: 4px;
+}
+::placeholder { 
+    color: #008CFE;
+}
+button{
+    height: 25px;
+    width: 60px;
+    border-radius: 4px;
+    background-color: #C2E3FF;
+    color: #008CFE;
+    border-style: none;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: #003F73;
+}
+.button:active {
+    background-color: #003F73;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
